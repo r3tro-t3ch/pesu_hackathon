@@ -39,3 +39,40 @@ Launch the arena
 
 `ros2 launch pesu_hackathon_ws arena.launch.py`
 
+### Topics
+
+RGB camera info
+
+`/camera/camera_info`
+
+Depth camera info
+
+`/camera/depth/camera_info`
+
+Depth image
+
+`/camera/depth/image_raw`
+
+RGB image
+
+`/camera/image_raw`
+
+Point cloud
+
+`/camera/points`
+
+Command velocity (use to move the robot - control output)
+
+`/cmd_vel`
+
+IMU sensor
+
+`/imu`
+
+Robot odometry
+
+`/odom`
+
+Laser scan
+
+`/scan`
