@@ -14,10 +14,6 @@ Clone the repository into src
 
 `git clone https://github.com/r3tro-t3ch/pesu_hackathon.git src/`
 
-Clone turtlebot repository into src
-
-`git clone -b humble-devel https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git`
-
 Install turtlebot3 dependencies
 
 `sudo apt install ros-humble-turtlebot3 ros-humble-turtlebot3-msgs -y`
