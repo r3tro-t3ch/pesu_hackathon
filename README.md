@@ -27,6 +27,15 @@ Go to pesu_hackthon_ws folder and build the workspace
 
 `colcon build --symlink-install`
 
+
+if you run into following error while running above command
+
+`EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.`
+
+run the following command and build the workspace again.
+
+`pip install setuptools==58.2.0`
+
 Source the bash script
 
 `. ./install/setup.bash`
